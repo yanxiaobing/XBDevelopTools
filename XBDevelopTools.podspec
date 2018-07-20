@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'XBDevelopTools'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = 'file path / color / singleton / view'
     s.homepage     = 'https://github.com/yanxiaobing/XBDevelopTools'
     s.license      = 'MIT'
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     ss.source_files = 'XBDevelopTools/View/*.{h,m}'
   end
 
-    s.source_files = 'XBDevelopTools/**/*.{h}'
+    s.source_files = 'XBDevelopTools/*.{h}'
 end
