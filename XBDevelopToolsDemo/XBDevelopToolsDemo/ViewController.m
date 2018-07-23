@@ -21,7 +21,7 @@
 }
 - (IBAction)btnClick:(id)sender {
     
-    self.view.backgroundColor = XBRandomColor;
+    self.view.backgroundColor = XBHexColor(@"ff4338");
     
     NSLog(@"%@",XBDocumentPath);
     

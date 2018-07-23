@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#define XBRandomColor [UIColor xb_randomColor];
+#define XBRandomColor [UIColor xb_randomColor]
 
-#define XBHexAlphaColor(hex,alpha) [UIColor xb_colorWithHexString:hex alpha:alpha]
+#define XBHexAlphaColor(hex,a) [UIColor xb_colorWithHexString:hex alpha:a]
 #define XBHexColor(hex) XBHexAlphaColor(hex,1.0f)
 
 #define XBRGBAColor(r,g,b,a) [UIColor xb_colorWithRed:r green:g blue:b alpha:a]

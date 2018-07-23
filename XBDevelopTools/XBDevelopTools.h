@@ -14,6 +14,8 @@
 #import "UIColor+XBColor.h"
 #import "UIView+XBFrame.h"
 
+/** main screen width scale with iphone6 width **/
+#define XBScale(value) value * [UIScreen mainScreen].bounds.size.width / 375.0
 
 /** count time between tick and tock **/
 #define XB_TICK   NSDate *startTime = [NSDate date];
