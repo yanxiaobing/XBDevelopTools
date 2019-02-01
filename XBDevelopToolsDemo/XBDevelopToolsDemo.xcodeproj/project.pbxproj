@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C082203FE8D0064A83B /* UIColor+XBColor.m */; };
+		ED118C142203FE8D0064A83B /* XBPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C0B2203FE8D0064A83B /* XBPath.m */; };
+		ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C102203FE8D0064A83B /* UIView+XBFrame.m */; };
 		EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA300C2101D66100F8D8F8 /* AppDelegate.m */; };
 		EDBA30102101D66100F8D8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA300F2101D66100F8D8F8 /* ViewController.m */; };
 		EDBA30132101D66100F8D8F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30112101D66100F8D8F8 /* Main.storyboard */; };
 		EDBA30152101D66400F8D8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30142101D66400F8D8F8 /* Assets.xcassets */; };
 		EDBA30182101D66400F8D8F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30162101D66400F8D8F8 /* LaunchScreen.storyboard */; };
 		EDBA301B2101D66400F8D8F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA301A2101D66400F8D8F8 /* main.m */; };
-		EDBA30372101D6FA00F8D8F8 /* XBPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA302E2101D6F900F8D8F8 /* XBPath.m */; };
-		EDBA30382101D6FA00F8D8F8 /* UIView+XBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA30322101D6F900F8D8F8 /* UIView+XBFrame.m */; };
-		EDBA30392101D6FA00F8D8F8 /* UIColor+XBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA30352101D6F900F8D8F8 /* UIColor+XBColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED118C082203FE8D0064A83B /* UIColor+XBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XBColor.m"; sourceTree = "<group>"; };
+		ED118C092203FE8D0064A83B /* UIColor+XBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XBColor.h"; sourceTree = "<group>"; };
+		ED118C0B2203FE8D0064A83B /* XBPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPath.m; sourceTree = "<group>"; };
+		ED118C0C2203FE8D0064A83B /* XBPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPath.h; sourceTree = "<group>"; };
+		ED118C0E2203FE8D0064A83B /* XBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSingleton.h; sourceTree = "<group>"; };
+		ED118C102203FE8D0064A83B /* UIView+XBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBFrame.m"; sourceTree = "<group>"; };
+		ED118C112203FE8D0064A83B /* UIView+XBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBFrame.h"; sourceTree = "<group>"; };
+		ED118C122203FE8D0064A83B /* XBDevelopTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDevelopTools.h; sourceTree = "<group>"; };
 		EDBA30082101D66100F8D8F8 /* XBDevelopToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBDevelopToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBA300B2101D66100F8D8F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDBA300C2101D66100F8D8F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,14 +37,6 @@
 		EDBA30172101D66400F8D8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDBA30192101D66400F8D8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDBA301A2101D66400F8D8F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDBA302C2101D6F900F8D8F8 /* XBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSingleton.h; sourceTree = "<group>"; };
-		EDBA302E2101D6F900F8D8F8 /* XBPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPath.m; sourceTree = "<group>"; };
-		EDBA302F2101D6F900F8D8F8 /* XBPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPath.h; sourceTree = "<group>"; };
-		EDBA30302101D6F900F8D8F8 /* XBDevelopTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDevelopTools.h; sourceTree = "<group>"; };
-		EDBA30322101D6F900F8D8F8 /* UIView+XBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBFrame.m"; sourceTree = "<group>"; };
-		EDBA30332101D6F900F8D8F8 /* UIView+XBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBFrame.h"; sourceTree = "<group>"; };
-		EDBA30352101D6F900F8D8F8 /* UIColor+XBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XBColor.m"; sourceTree = "<group>"; };
-		EDBA30362101D6F900F8D8F8 /* UIColor+XBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XBColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED118C062203FE8D0064A83B /* XBDevelopTools */ = {
+			isa = PBXGroup;
+			children = (
+				ED118C072203FE8D0064A83B /* Color */,
+				ED118C0A2203FE8D0064A83B /* Path */,
+				ED118C0D2203FE8D0064A83B /* Singleton */,
+				ED118C0F2203FE8D0064A83B /* View */,
+				ED118C122203FE8D0064A83B /* XBDevelopTools.h */,
+			);
+			name = XBDevelopTools;
+			path = ../../XBDevelopTools;
+			sourceTree = "<group>";
+		};
+		ED118C072203FE8D0064A83B /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				ED118C082203FE8D0064A83B /* UIColor+XBColor.m */,
+				ED118C092203FE8D0064A83B /* UIColor+XBColor.h */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		ED118C0A2203FE8D0064A83B /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				ED118C0B2203FE8D0064A83B /* XBPath.m */,
+				ED118C0C2203FE8D0064A83B /* XBPath.h */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		ED118C0D2203FE8D0064A83B /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				ED118C0E2203FE8D0064A83B /* XBSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		ED118C0F2203FE8D0064A83B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED118C102203FE8D0064A83B /* UIView+XBFrame.m */,
+				ED118C112203FE8D0064A83B /* UIView+XBFrame.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EDBA2FFF2101D66100F8D8F8 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +117,7 @@
 		EDBA300A2101D66100F8D8F8 /* XBDevelopToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EDBA30212101D69000F8D8F8 /* XBDevelopTools */,
+				ED118C062203FE8D0064A83B /* XBDevelopTools */,
 				EDBA300B2101D66100F8D8F8 /* AppDelegate.h */,
 				EDBA300C2101D66100F8D8F8 /* AppDelegate.m */,
 				EDBA300E2101D66100F8D8F8 /* ViewController.h */,
@@ -81,53 +129,6 @@
 				EDBA301A2101D66400F8D8F8 /* main.m */,
 			);
 			path = XBDevelopToolsDemo;
-			sourceTree = "<group>";
-		};
-		EDBA30212101D69000F8D8F8 /* XBDevelopTools */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA30342101D6F900F8D8F8 /* Color */,
-				EDBA302D2101D6F900F8D8F8 /* Path */,
-				EDBA302B2101D6F900F8D8F8 /* Singleton */,
-				EDBA30312101D6F900F8D8F8 /* View */,
-				EDBA30302101D6F900F8D8F8 /* XBDevelopTools.h */,
-			);
-			path = XBDevelopTools;
-			sourceTree = "<group>";
-		};
-		EDBA302B2101D6F900F8D8F8 /* Singleton */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA302C2101D6F900F8D8F8 /* XBSingleton.h */,
-			);
-			path = Singleton;
-			sourceTree = "<group>";
-		};
-		EDBA302D2101D6F900F8D8F8 /* Path */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA302E2101D6F900F8D8F8 /* XBPath.m */,
-				EDBA302F2101D6F900F8D8F8 /* XBPath.h */,
-			);
-			path = Path;
-			sourceTree = "<group>";
-		};
-		EDBA30312101D6F900F8D8F8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA30322101D6F900F8D8F8 /* UIView+XBFrame.m */,
-				EDBA30332101D6F900F8D8F8 /* UIView+XBFrame.h */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		EDBA30342101D6F900F8D8F8 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA30352101D6F900F8D8F8 /* UIColor+XBColor.m */,
-				EDBA30362101D6F900F8D8F8 /* UIColor+XBColor.h */,
-			);
-			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,12 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBA30382101D6FA00F8D8F8 /* UIView+XBFrame.m in Sources */,
 				EDBA30102101D66100F8D8F8 /* ViewController.m in Sources */,
+				ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */,
 				EDBA301B2101D66400F8D8F8 /* main.m in Sources */,
-				EDBA30392101D6FA00F8D8F8 /* UIColor+XBColor.m in Sources */,
-				EDBA30372101D6FA00F8D8F8 /* XBPath.m in Sources */,
 				EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */,
+				ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */,
+				ED118C142203FE8D0064A83B /* XBPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
