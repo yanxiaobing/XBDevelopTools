@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = 'XBDevelopTools'
-    s.version      = '0.0.3'
-    s.summary      = 'screen scale feature and bug fix'
+    s.version      = '0.0.4'
+    s.summary      = '修复XBScale(value)宏中value包含运算符时计算错误bug'
     s.homepage     = 'https://github.com/yanxiaobing/XBDevelopTools'
     s.license      = 'MIT'
     s.authors      = {'XBingo' => 'dove025@qq.com'}
