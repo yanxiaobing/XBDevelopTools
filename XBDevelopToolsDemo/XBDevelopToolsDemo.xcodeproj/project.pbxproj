@@ -10,6 +10,9 @@
 		ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C082203FE8D0064A83B /* UIColor+XBColor.m */; };
 		ED118C142203FE8D0064A83B /* XBPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C0B2203FE8D0064A83B /* XBPath.m */; };
 		ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C102203FE8D0064A83B /* UIView+XBFrame.m */; };
+		ED830F622356FFA200D16C9B /* XBDevelopTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ED830F612356FFA200D16C9B /* XBDevelopTools.podspec */; };
+		ED830F662357003700D16C9B /* XBNoticeService.m in Sources */ = {isa = PBXBuildFile; fileRef = ED830F652357003700D16C9B /* XBNoticeService.m */; };
+		ED830F692357005500D16C9B /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = ED830F682357005500D16C9B /* NSObject+Property.m */; };
 		EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA300C2101D66100F8D8F8 /* AppDelegate.m */; };
 		EDBA30102101D66100F8D8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA300F2101D66100F8D8F8 /* ViewController.m */; };
 		EDBA30132101D66100F8D8F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30112101D66100F8D8F8 /* Main.storyboard */; };
@@ -27,6 +30,11 @@
 		ED118C102203FE8D0064A83B /* UIView+XBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBFrame.m"; sourceTree = "<group>"; };
 		ED118C112203FE8D0064A83B /* UIView+XBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBFrame.h"; sourceTree = "<group>"; };
 		ED118C122203FE8D0064A83B /* XBDevelopTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDevelopTools.h; sourceTree = "<group>"; };
+		ED830F612356FFA200D16C9B /* XBDevelopTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XBDevelopTools.podspec; path = ../../XBDevelopTools.podspec; sourceTree = "<group>"; };
+		ED830F642357003700D16C9B /* XBNoticeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBNoticeService.h; sourceTree = "<group>"; };
+		ED830F652357003700D16C9B /* XBNoticeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBNoticeService.m; sourceTree = "<group>"; };
+		ED830F672357005500D16C9B /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		ED830F682357005500D16C9B /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		EDBA30082101D66100F8D8F8 /* XBDevelopToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBDevelopToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBA300B2101D66100F8D8F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDBA300C2101D66100F8D8F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +61,7 @@
 		ED118C062203FE8D0064A83B /* XBDevelopTools */ = {
 			isa = PBXGroup;
 			children = (
+				ED830F632356FFF800D16C9B /* Notice */,
 				ED118C072203FE8D0064A83B /* Color */,
 				ED118C0A2203FE8D0064A83B /* Path */,
 				ED118C0D2203FE8D0064A83B /* Singleton */,
@@ -98,6 +107,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		ED830F632356FFF800D16C9B /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				ED830F642357003700D16C9B /* XBNoticeService.h */,
+				ED830F652357003700D16C9B /* XBNoticeService.m */,
+				ED830F672357005500D16C9B /* NSObject+Property.h */,
+				ED830F682357005500D16C9B /* NSObject+Property.m */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
 		EDBA2FFF2101D66100F8D8F8 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +137,7 @@
 		EDBA300A2101D66100F8D8F8 /* XBDevelopToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED830F612356FFA200D16C9B /* XBDevelopTools.podspec */,
 				ED118C062203FE8D0064A83B /* XBDevelopTools */,
 				EDBA300B2101D66100F8D8F8 /* AppDelegate.h */,
 				EDBA300C2101D66100F8D8F8 /* AppDelegate.m */,
@@ -188,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED830F622356FFA200D16C9B /* XBDevelopTools.podspec in Resources */,
 				EDBA30182101D66400F8D8F8 /* LaunchScreen.storyboard in Resources */,
 				EDBA30152101D66400F8D8F8 /* Assets.xcassets in Resources */,
 				EDBA30132101D66100F8D8F8 /* Main.storyboard in Resources */,
@@ -206,6 +228,8 @@
 				EDBA301B2101D66400F8D8F8 /* main.m in Sources */,
 				EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */,
 				ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */,
+				ED830F662357003700D16C9B /* XBNoticeService.m in Sources */,
+				ED830F692357005500D16C9B /* NSObject+Property.m in Sources */,
 				ED118C142203FE8D0064A83B /* XBPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
