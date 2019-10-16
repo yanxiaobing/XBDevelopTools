@@ -13,6 +13,7 @@
 #import "XBPath.h"
 #import "UIColor+XBColor.h"
 #import "UIView+XBFrame.h"
+#import "XBNoticeService.h"
 
 /** main screen width scale with iphone6 width **/
 #define XBScale(value) (value) * [UIScreen mainScreen].bounds.size.width / 375.0
