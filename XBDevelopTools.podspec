@@ -29,6 +29,10 @@ Pod::Spec.new do |s|
     notice.source_files = 'XBDevelopTools/Notice/*.{h,m}'
     notice.dependency 'XBDevelopTools/Singleton'
   end
+  
+  s.subspec 'ListElement' do |list_element|
+    list_element.source_files = 'XBDevelopTools/ListElement/*.{h,m}'
+  end
 
     s.source_files = 'XBDevelopTools/*.{h}'
 end

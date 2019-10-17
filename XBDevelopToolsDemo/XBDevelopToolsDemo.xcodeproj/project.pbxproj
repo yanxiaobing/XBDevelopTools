@@ -19,6 +19,9 @@
 		EDBA30152101D66400F8D8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30142101D66400F8D8F8 /* Assets.xcassets */; };
 		EDBA30182101D66400F8D8F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA30162101D66400F8D8F8 /* LaunchScreen.storyboard */; };
 		EDBA301B2101D66400F8D8F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA301A2101D66400F8D8F8 /* main.m */; };
+		EDE0415823581AA9001F419D /* XBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0415723581AA9001F419D /* XBTableViewCell.m */; };
+		EDE0415B23581B32001F419D /* XBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0415A23581B32001F419D /* XBCollectionViewCell.m */; };
+		EDE0415E23581B82001F419D /* XBTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0415D23581B82001F419D /* XBTableViewHeaderFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,12 @@
 		EDBA30172101D66400F8D8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDBA30192101D66400F8D8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDBA301A2101D66400F8D8F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE0415623581AA9001F419D /* XBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBTableViewCell.h; sourceTree = "<group>"; };
+		EDE0415723581AA9001F419D /* XBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTableViewCell.m; sourceTree = "<group>"; };
+		EDE0415923581B32001F419D /* XBCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCollectionViewCell.h; sourceTree = "<group>"; };
+		EDE0415A23581B32001F419D /* XBCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBCollectionViewCell.m; sourceTree = "<group>"; };
+		EDE0415C23581B82001F419D /* XBTableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		EDE0415D23581B82001F419D /* XBTableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 		ED118C062203FE8D0064A83B /* XBDevelopTools */ = {
 			isa = PBXGroup;
 			children = (
+				EDE0415523581A5A001F419D /* ListElement */,
 				ED830F632356FFF800D16C9B /* Notice */,
 				ED118C072203FE8D0064A83B /* Color */,
 				ED118C0A2203FE8D0064A83B /* Path */,
@@ -152,6 +162,19 @@
 			path = XBDevelopToolsDemo;
 			sourceTree = "<group>";
 		};
+		EDE0415523581A5A001F419D /* ListElement */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0415623581AA9001F419D /* XBTableViewCell.h */,
+				EDE0415723581AA9001F419D /* XBTableViewCell.m */,
+				EDE0415923581B32001F419D /* XBCollectionViewCell.h */,
+				EDE0415A23581B32001F419D /* XBCollectionViewCell.m */,
+				EDE0415C23581B82001F419D /* XBTableViewHeaderFooterView.h */,
+				EDE0415D23581B82001F419D /* XBTableViewHeaderFooterView.m */,
+			);
+			path = ListElement;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,8 +250,11 @@
 				ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */,
 				EDBA301B2101D66400F8D8F8 /* main.m in Sources */,
 				EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */,
+				EDE0415B23581B32001F419D /* XBCollectionViewCell.m in Sources */,
 				ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */,
 				ED830F662357003700D16C9B /* XBNoticeService.m in Sources */,
+				EDE0415E23581B82001F419D /* XBTableViewHeaderFooterView.m in Sources */,
+				EDE0415823581AA9001F419D /* XBTableViewCell.m in Sources */,
 				ED830F692357005500D16C9B /* NSObject+Property.m in Sources */,
 				ED118C142203FE8D0064A83B /* XBPath.m in Sources */,
 			);
