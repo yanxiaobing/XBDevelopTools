@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = 'XBDevelopTools'
-    s.version      = '0.0.5'
-    s.summary      = '添加通知封装'
+    s.version      = '0.0.6'
+    s.summary      = '添加列表元素基类'
     s.homepage     = 'https://github.com/yanxiaobing/XBDevelopTools'
     s.license      = 'MIT'
     s.authors      = {'XBingo' => 'dove025@qq.com'}
