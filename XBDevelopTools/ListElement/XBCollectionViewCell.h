@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param data cell内容数据
  */
-- (void)updateWithData:(id)data;
+- (void)updateWithData:(_Nullable id)data;
 
 @end
 

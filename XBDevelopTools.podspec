@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'XBDevelopTools'
-    s.version      = '0.0.6'
+    s.version      = '0.0.7'
     s.summary      = '添加列表元素基类'
     s.homepage     = 'https://github.com/yanxiaobing/XBDevelopTools'
     s.license      = 'MIT'

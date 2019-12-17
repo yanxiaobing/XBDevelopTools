@@ -14,13 +14,12 @@
     return NSStringFromClass([self class]);
 }
 
-+ (CGFloat)viewHeight:(id)data{
++ (CGFloat)viewHeight:(_Nullable id)data{
     return 0;
 }
 
-+ (instancetype)viewInTableView:(UITableView *)tableView
-                 withIdentifier:(NSString *)identifier{
-    return [tableView dequeueReusableHeaderFooterViewWithIdentifier:identifier];
++ (instancetype)viewInTableView:(UITableView *)tableView{
+    return [tableView dequeueReusableHeaderFooterViewWithIdentifier:[self viewIdentifier]];
 }
 
 -(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier{
@@ -32,6 +31,6 @@
 
 -(void)setUpSubviews{}
 
--(void)updateView:(id)data{}
+-(void)updateView:(_Nullable id)data{}
 
 @end

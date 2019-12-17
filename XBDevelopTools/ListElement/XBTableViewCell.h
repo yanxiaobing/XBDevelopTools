@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param data 根据相关数据计算CellHeight
  @return CellHeight
  */
-+(CGFloat)cellHeight:(id)data;
++(CGFloat)cellHeight:(_Nullable id)data;
 
 
 /**
@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param data cell内容数据
  */
-- (void)updateWithData:(id)data;
+- (void)updateWithData:(_Nullable id)data;
 
 @end
 

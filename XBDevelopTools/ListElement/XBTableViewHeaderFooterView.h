@@ -14,13 +14,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)viewIdentifier;
 
-+ (CGFloat)viewHeight:(id)data;
++ (CGFloat)viewHeight:(_Nullable id)data;
 
-+ (instancetype)viewInTableView:(UITableView *)tableView
-                 withIdentifier:(NSString *)identifier;
++ (instancetype)viewInTableView:(UITableView *)tableView;
 
 -(void)setUpSubviews;
--(void)updateView:(id)data;
+-(void)updateView:(_Nullable id)data;
 
 @end
 

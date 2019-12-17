@@ -14,7 +14,7 @@
     return NSStringFromClass([self class]);
 }
 
-+(CGSize)cellSize:(id)data collectionView:(UICollectionView *)collectionView{
++(CGSize)cellSize:(_Nullable id)data collectionView:(UICollectionView *)collectionView{
     return CGSizeZero;
 }
 
@@ -22,6 +22,6 @@
     return [collectionView dequeueReusableCellWithReuseIdentifier:[self reuseIdentifier] forIndexPath:indexPath];
 }
 
--(void)updateWithData:(id)data{}
+-(void)updateWithData:(_Nullable id)data{}
 
 @end

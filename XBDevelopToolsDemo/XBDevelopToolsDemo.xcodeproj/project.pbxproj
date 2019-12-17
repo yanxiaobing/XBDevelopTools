@@ -10,6 +10,7 @@
 		ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C082203FE8D0064A83B /* UIColor+XBColor.m */; };
 		ED118C142203FE8D0064A83B /* XBPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C0B2203FE8D0064A83B /* XBPath.m */; };
 		ED118C152203FE8D0064A83B /* UIView+XBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED118C102203FE8D0064A83B /* UIView+XBFrame.m */; };
+		ED29895423A8AA63000DB2D9 /* XBCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29895323A8AA63000DB2D9 /* XBCollectionReusableView.m */; };
 		ED830F622356FFA200D16C9B /* XBDevelopTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ED830F612356FFA200D16C9B /* XBDevelopTools.podspec */; };
 		ED830F662357003700D16C9B /* XBNoticeService.m in Sources */ = {isa = PBXBuildFile; fileRef = ED830F652357003700D16C9B /* XBNoticeService.m */; };
 		ED830F692357005500D16C9B /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = ED830F682357005500D16C9B /* NSObject+Property.m */; };
@@ -33,6 +34,8 @@
 		ED118C102203FE8D0064A83B /* UIView+XBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBFrame.m"; sourceTree = "<group>"; };
 		ED118C112203FE8D0064A83B /* UIView+XBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBFrame.h"; sourceTree = "<group>"; };
 		ED118C122203FE8D0064A83B /* XBDevelopTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDevelopTools.h; sourceTree = "<group>"; };
+		ED29895223A8AA63000DB2D9 /* XBCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCollectionReusableView.h; sourceTree = "<group>"; };
+		ED29895323A8AA63000DB2D9 /* XBCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBCollectionReusableView.m; sourceTree = "<group>"; };
 		ED830F612356FFA200D16C9B /* XBDevelopTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XBDevelopTools.podspec; path = ../../XBDevelopTools.podspec; sourceTree = "<group>"; };
 		ED830F642357003700D16C9B /* XBNoticeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBNoticeService.h; sourceTree = "<group>"; };
 		ED830F652357003700D16C9B /* XBNoticeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBNoticeService.m; sourceTree = "<group>"; };
@@ -167,10 +170,12 @@
 			children = (
 				EDE0415623581AA9001F419D /* XBTableViewCell.h */,
 				EDE0415723581AA9001F419D /* XBTableViewCell.m */,
-				EDE0415923581B32001F419D /* XBCollectionViewCell.h */,
-				EDE0415A23581B32001F419D /* XBCollectionViewCell.m */,
 				EDE0415C23581B82001F419D /* XBTableViewHeaderFooterView.h */,
 				EDE0415D23581B82001F419D /* XBTableViewHeaderFooterView.m */,
+				EDE0415923581B32001F419D /* XBCollectionViewCell.h */,
+				EDE0415A23581B32001F419D /* XBCollectionViewCell.m */,
+				ED29895223A8AA63000DB2D9 /* XBCollectionReusableView.h */,
+				ED29895323A8AA63000DB2D9 /* XBCollectionReusableView.m */,
 			);
 			path = ListElement;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDBA30102101D66100F8D8F8 /* ViewController.m in Sources */,
+				ED29895423A8AA63000DB2D9 /* XBCollectionReusableView.m in Sources */,
 				ED118C132203FE8D0064A83B /* UIColor+XBColor.m in Sources */,
 				EDBA301B2101D66400F8D8F8 /* main.m in Sources */,
 				EDBA300D2101D66100F8D8F8 /* AppDelegate.m in Sources */,

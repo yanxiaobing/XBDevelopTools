@@ -14,7 +14,7 @@
     return NSStringFromClass([self class]);
 }
 
-+(CGFloat)cellHeight:(id)data{
++(CGFloat)cellHeight:(_Nullable id)data{
     return 0.0;
 }
 
@@ -30,12 +30,8 @@
     return self;
 }
 
--(void)setUpSubviews{
-    
-}
+-(void)setUpSubviews{}
 
--(void)updateWithData:(id)data{
-    
-}
+-(void)updateWithData:(_Nullable id)data{}
 
 @end
