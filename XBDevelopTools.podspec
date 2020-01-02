@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = 'XBDevelopTools'
-    s.version      = '0.0.7'
-    s.summary      = '添加列表元素基类'
+    s.version      = '0.0.8'
+    s.summary      = '优化实例唯一标识生成逻辑（类名+实例内存地址）'
     s.homepage     = 'https://github.com/yanxiaobing/XBDevelopTools'
     s.license      = 'MIT'
     s.authors      = {'XBingo' => 'dove025@qq.com'}

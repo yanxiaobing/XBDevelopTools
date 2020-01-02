@@ -55,14 +55,14 @@ XBSingletonM(shared)
     __block BOOL exists = NO;
     
     [blockList enumerateObjectsUsingBlock:^(NSDictionary*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if ([obj.allKeys containsObject:target.objectIdentifier]) {
+        if ([obj.allKeys containsObject:target.xb_objectIdentifier]) {
             exists = YES;
             *stop = YES;
         }
     }];
     
     if (!exists) {
-        [blockList addObject:@{target.objectIdentifier:block}];
+        [blockList addObject:@{target.xb_objectIdentifier:block}];
     }
     
     [_blockMap setObject:blockList forKey:noticeName];
@@ -97,7 +97,7 @@ XBSingletonM(shared)
         
         [blockList enumerateObjectsUsingBlock:^(NSDictionary<NSString *,id> * _Nonnull blockDic, NSUInteger idx, BOOL * _Nonnull stop) {
             
-            if ([blockDic.allKeys.lastObject isEqualToString:target.objectIdentifier]) {
+            if ([blockDic.allKeys.lastObject isEqualToString:target.xb_objectIdentifier]) {
                 NSMutableArray *temBlockList = self.blockMap[key];
                 [temBlockList removeObjectAtIndex:idx];
                 if (temBlockList.count > 0) {

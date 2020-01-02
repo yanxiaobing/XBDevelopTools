@@ -1,5 +1,5 @@
 //
-//  NSObject+Property.h
+//  NSObject+XBObjectIdentifier.h
 //  XBDevelopToolsDemo
 //
 //  Created by xbingo on 2019/10/16.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (Property)
+@interface NSObject (XBObjectIdentifier)
 
-@property (nonatomic ,strong) NSString *objectIdentifier;
+@property (nonatomic ,strong ,readonly) NSString *xb_objectIdentifier;
 
 @end
 

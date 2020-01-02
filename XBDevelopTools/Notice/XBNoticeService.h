@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+Property.h"
+#import "NSObject+XBObjectIdentifier.h"
 #import "XBSingleton.h"
 
 NS_ASSUME_NONNULL_BEGIN
