@@ -46,8 +46,11 @@ XBSingletonM(shared)
      noticeName:(nonnull NSString *)noticeName
           block:(nonnull XBNoticeBlock)block{
     
-    NSMutableArray *blockList = [[NSMutableArray alloc]initWithArray:_blockMap[noticeName]];
+    if (![_blockMap.allKeys containsObject:noticeName]) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealWithNotice:) name:noticeName object:nil];
+    }
     
+    NSMutableArray *blockList = [[NSMutableArray alloc]initWithArray:_blockMap[noticeName]];
     if (!blockList) {
         blockList = [NSMutableArray new];
     }
@@ -63,12 +66,9 @@ XBSingletonM(shared)
     
     if (!exists) {
         [blockList addObject:@{target.xb_objectIdentifier:block}];
+        [_blockMap setObject:blockList forKey:noticeName];
     }
-    
-    [_blockMap setObject:blockList forKey:noticeName];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealWithNotice:) name:noticeName object:nil];
-    
+
 }
 
 -(void)dealWithNotice:(NSNotification *)notification{
